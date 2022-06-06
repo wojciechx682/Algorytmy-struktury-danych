@@ -1,7 +1,3 @@
-﻿// ALGO2 IS1 222A LAB03
-// Jakub Wojciechowski
-// wj46693@zut.edu.pl
-
 #include <iostream>
 #include <time.h>
 
