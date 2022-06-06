@@ -1,8 +1,3 @@
-﻿// ALGO2 IS1 222A LAB02
-// Jakub Wojciechowski
-// wj46693@zut.edu.pl
-// 46693.algo2.lab02.main.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-
 #include <iostream>
 #include <time.h>
 
