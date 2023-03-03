@@ -16,3 +16,16 @@ red_black_tree.cpp
     add_fix is a helper function that fixes any violations of the RBT properties caused by inserting a new node. It does this by performing a series of rotations and color changes on the nodes in the tree. The function takes a pointer to the newly inserted node as an argument and works its way up the tree, fixing violations until the root of the tree is reached.
     preorder and inorder are functions that traverse the tree in preorder and inorder, respectively, and print out the values of the nodes.
     printRBT_short is a function that prints out a short representation of the tree in the format (index: [color, p: parent_index, l: left_child_index, r: right_child_index]). It uses a counter C to limit the output to the first 20 nodes in the tree.
+
+
+sorting.cpp
+
+    The given code implements various sorting algorithms such as heap sort, counting sort, and bucket sort. Additionally, it defines a class element with two member variables name and key and creates an array of element<int> objects. The main() function initializes the key values of the objects using random numbers and then calls different sorting algorithms on the key values of the objects or on a separate array of integers (tab).
+
+    Here is a brief summary of each sorting algorithm used in the code:
+
+    heap_sort(): Implements heap sort on an array of integers. It first creates a max heap using the given array and then repeatedly swaps the root node with the last node and performs heapify operation until the array is sorted.
+    counting_sort(): Implements counting sort on an array of integers. It counts the number of occurrences of each element and then uses this information to sort the array in ascending order.
+    counting_sort_objects(): Implements counting sort on an array of objects of type element<T>. It counts the number of occurrences of each key value and uses this information to sort the objects in ascending order based on their key values.
+    bucket_sort(): Implements bucket sort on an array of integers. It first divides the range of input values into a set of buckets and then distributes the input values into these buckets. Finally, it sorts the individual buckets and combines them to get the final sorted array.
+    
